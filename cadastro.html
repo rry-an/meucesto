@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cadastro Feira</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo-square"><img src="assets/img/logo.png" alt="logo"></div>
+      <h1>CADASTRO</h1>
+    </div>
+  </header>
+
+  <main class="container center-page">
+    <section class="cad-card">
+      <div class="cad-top">cadastrar</div>
+      <form method="post" action="public/index.php?controller=feira&action=save" class="cad-form">
+        <div class="row two-cols">
+          <div class="field"><label>nome</label><input name="nome" required></div>
+          <div class="field"><label>sobrenome</label><input name="sobrenome"></div>
+        </div>
+
+        <div class="field"><label>e-mail</label><input type="email" name="email" required></div>
+        <div class="field"><label>senha</label><input type="password" name="senha" required></div>
+        <div class="field"><label>confirmar senha</label><input type="password" name="confirm" required></div>
+
+        <div class="actions">
+          <a href="index.html"><button class="btn primary" type="submit">CRIAR CONTA</button></a>
+        </div>
+        <p class="muted small">Já possui uma conta? <a href="login.html">Faça login!</a></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><small>Projeto MVC • Repository • PHP • MySQL</small></footer>
+</body>
+</html>

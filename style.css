@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #fff;
+    border-bottom: 2px solid #9CAF88;
+    padding: 15px 30px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #5A2E1F;
+}
+
+.search input {
+    padding: 8px 15px;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+}
+
+.icons a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Banner */
+.banner {
+    width: 100%;
+    height: 300px;
+    background: #e6e6e6;
+}
+
+/* Feiras */
+.feiras {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.feiras h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.items {
+    display: flex;
+    gap: 40px;
+}
+
+.circle-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    color: #555;
+}
+
+.circle {
+    width: 90px;
+    height: 90px;
+    background: #e6e6e6;
+    border-radius: 50%;
+    margin-bottom: 8px;
+}
+
+.arrow {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Produtos */
+.produtos {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.produtos h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+.produtos h2 {
+    font-size: 28px;
+    margin: 10px 0 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.card {
+    width: 220px;
+    height: 260px;
+    background: #e6e6e6;
+    border-radius: 8px;
+    position: relative;
+}
+
+.destaque .tag {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #E91E63;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background: #f5f5f5;
+    padding: 40px 20px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+footer .coluna h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
